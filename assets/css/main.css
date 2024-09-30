@@ -694,7 +694,7 @@ h6 {
 }
 
 .page-title .heading {
-  padding: 80px 0;
+  padding: 50px 0 0px 0;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
@@ -939,6 +939,16 @@ section,
   background-color: var(--accent-color);
 }
 
+.alto .swiper-slide img{
+  background-color: #000;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+.alto .swiper-slide {
+  height: 400px; /* Ajusta esta altura según sea necesario */
+}
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
